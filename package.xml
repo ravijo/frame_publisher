@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>frame_publisher</name>
+  <version>0.0.1</version>
+  <description>The frame_publisher package</description>
+
+  <!-- The maintainer tag -->
+  <maintainer email="ravi2008joshi@gmail.com">Ravi Joshi</maintainer>
+  <author email="ravi2008joshi@gmail.com">Ravi Joshi</author>
+
+  <!-- The license tag -->
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+
+  <export>
+  </export>
+</package>
