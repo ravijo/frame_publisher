@@ -189,9 +189,6 @@
              <property name="maximum">
               <double>9.000000000000000</double>
              </property>
-             <property name="stepType">
-              <enum>QAbstractSpinBox::DefaultStepType</enum>
-             </property>
             </widget>
            </item>
           </layout>
@@ -216,11 +213,11 @@
              <property name="decimals">
               <number>3</number>
              </property>
+             <property name="minimum">
+              <double>-9.000000000000000</double>
+             </property>
              <property name="maximum">
               <double>9.000000000000000</double>
-             </property>
-             <property name="stepType">
-              <enum>QAbstractSpinBox::DefaultStepType</enum>
              </property>
              <property name="value">
               <double>1.000000000000000</double>
@@ -324,9 +321,6 @@
              <property name="maximum">
               <double>9.000000000000000</double>
              </property>
-             <property name="stepType">
-              <enum>QAbstractSpinBox::DefaultStepType</enum>
-             </property>
             </widget>
            </item>
           </layout>
@@ -350,6 +344,12 @@
              </property>
              <property name="decimals">
               <number>3</number>
+             </property>
+             <property name="minimum">
+              <double>-9.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>9.000000000000000</double>
              </property>
              <property name="value">
               <double>1.000000000000000</double>
@@ -453,9 +453,6 @@
              <property name="maximum">
               <double>9.000000000000000</double>
              </property>
-             <property name="stepType">
-              <enum>QAbstractSpinBox::DefaultStepType</enum>
-             </property>
             </widget>
            </item>
           </layout>
@@ -479,6 +476,12 @@
              </property>
              <property name="decimals">
               <number>3</number>
+             </property>
+             <property name="minimum">
+              <double>-9.000000000000000</double>
+             </property>
+             <property name="maximum">
+              <double>9.000000000000000</double>
              </property>
              <property name="value">
               <double>1.000000000000000</double>
