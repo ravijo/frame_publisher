@@ -5,9 +5,14 @@ Author: Ravi Joshi
 Date: 2023/05/28
 -->
 <launch>
+  <!-- visualization -->
+  <arg name="rviz" default="true"/>
+
   <!-- invoke main python script -->
   <node name="frame_publisher" pkg="frame_publisher" type="main.py" output="screen" required="true" />
 
-  <!-- invoke rviz -->
-  <node pkg="rviz" type="rviz" respawn="false" required="true" name="rviz" args="-d $(find frame_publisher)/files/config.rviz" />
+  <group if="$(arg rviz)">
+    <!-- invoke rviz -->
+    <node pkg="rviz" type="rviz" respawn="false" required="true" name="rviz" args="-d $(find frame_publisher)/files/config.rviz" />
+  </group>
 </launch>
